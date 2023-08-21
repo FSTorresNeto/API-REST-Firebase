@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>    
+    <ImplicitUsings>enable</ImplicitUsings>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.0.0" />
+    <ProjectReference Include="../LixTec.Platform.Auth.Entity/LixTec.Platform.Auth.Entity.csproj" />
+    <ProjectReference Include="../LixTec.Platform.Auth.Repository/LixTec.Platform.Auth.Repository.csproj" />
+    <ProjectReference Include="../Factory/LixTec.Platform.Auth.Factory.Repository/LixTec.Platform.Auth.Factory.Repository.csproj" />
+    <ProjectReference Include="../../Auth/LixTec.Platform.Auth.Common/LixTec.Platform.Auth.Common.csproj" />
+    <ProjectReference Include="../../Common/LixTec.Platform.Common.Entity/LixTec.Platform.Common.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
