@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>    
+    <ImplicitUsings>enable</ImplicitUsings>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Factory/Firebase.Platform.Auth.Factory.Services/Firebase.Platform.Auth.Factory.Services.csproj"/>
+    <ProjectReference Include="../Factory/Firebase.Platform.Auth.Factory.Repository/Firebase.Platform.Auth.Factory.Repository.csproj"/>
+    <ProjectReference Include="../Firebase.Platform.Auth.Repository/Firebase.Platform.Auth.Repository.csproj"/>
+    <ProjectReference Include="../Firebase.Platform.Auth.Services/Firebase.Platform.Auth.Services.csproj"/>
+  </ItemGroup>
+
+</Project>

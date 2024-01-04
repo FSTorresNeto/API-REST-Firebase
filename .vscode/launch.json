@@ -1,35 +1,35 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "LixTec API",
-      "type": "coreclr",
-      "request": "launch",
-      "preLaunchTask": "build",
-      "program": "${workspaceFolder}/API/LixTec.Api.Application/bin/Debug/net6.0/LixTec.Api.Application.dll",
-      "args": [],
-      "cwd": "${workspaceFolder}/API/LixTec.Api.Application",
-      "stopAtEntry": false,
-      "env": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "sourceFileMap": {
-        "/Views": "${workspaceFolder}/Views"
-      }
-    },
-    {
-      "name": ".NET Core Attach",
-      "type": "coreclr",
-      "request": "attach"
-    },
-    {
-      "name": "Docker .NET Launch",
-      "type": "docker",
-      "request": "launch",
-      "preLaunchTask": "docker-run: debug",
-      "netCore": {
-        "appProject": "${workspaceFolder}/API/LixTec.Api.Application/LixTec.Api.Application.csproj"
-      }
-    }
-  ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Firebase API",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/API/Firebase.Api.Application/bin/Debug/net6.0/Firebase.Api.Application.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/API/Firebase.Api.Application",
+			"stopAtEntry": false,
+			"env": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"sourceFileMap": {
+				"/Views": "${workspaceFolder}/Views"
+			}
+		},
+		{
+			"name": ".NET Core Attach",
+			"type": "coreclr",
+			"request": "attach"
+		},
+		{
+			"name": "Docker .NET Launch",
+			"type": "docker",
+			"request": "launch",
+			"preLaunchTask": "docker-run: debug",
+			"netCore": {
+				"appProject": "${workspaceFolder}/API/Firebase.Api.Application/Firebase.Api.Application.csproj"
+			}
+		}
+	]
 }

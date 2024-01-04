@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>    
+    <ImplicitUsings>enable</ImplicitUsings>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.0.0" />
+    <ProjectReference Include="../Firebase.Platform.Business.Entity/Firebase.Platform.Business.Entity.csproj" />
+    <ProjectReference Include="../Firebase.Platform.Business.Repository/Firebase.Platform.Business.Repository.csproj" />
+    <ProjectReference Include="../../Business/Firebase.Platform.Business.Common/Firebase.Platform.Business.Common.csproj" />
+    <ProjectReference Include="../Factory/Firebase.Platform.Business.Factory.Repository/Firebase.Platform.Business.Factory.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

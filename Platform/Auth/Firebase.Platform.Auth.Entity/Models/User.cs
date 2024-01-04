@@ -1,6 +1,7 @@
-using Google.Cloud.Firestore;
+
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Google.Cloud.Firestore;
 
 namespace Firebase.Platform.Auth.Entity.Models;
 
